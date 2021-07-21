@@ -9,7 +9,8 @@
 <br>
 
 ### 🖼 Image project
-![FormPy_v1](\Img\FormPy_v1.png)
+
+![FormPy_v1](/Img/FormPy_v1.png)
 ![FormPy_v2](\Img\FormPy_v2.png)
 
 <br>
