@@ -9,8 +9,8 @@
 <br>
 
 ### 🖼 Image project
-![Form_v1](/Img/Form_v1)
-![Form_v2](/Img/Form_v2)
+![Form_v1](/Img/FormPy_v1)
+![Form_v2](/Img/FormPy_v2)
 
 <br>
 
