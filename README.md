@@ -27,6 +27,22 @@
 
 <br>
 
+### 💾 Instalação
+#### Mac e Linux
+    
+~~~~ Bash
+    python3 -m pip install PySimpleGUI
+    ou
+    pip3 instalar PySimpleGUI
+~~~~
+
+#### janelas
+
+~~~~ PowerShell
+    python - m pip install PySimpleGUI
+~~~~
+
+<br>
 ### ✔ Status
 
 <h4>Finish</h4>
