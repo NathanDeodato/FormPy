@@ -74,7 +74,6 @@ def FormPy():
 
 # Loop FormPy
 while True:
-    print("-" * 50)
     next = str(input("Register - [S/n]")).lower()
     
     system("cls")
