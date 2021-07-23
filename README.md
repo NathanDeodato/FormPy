@@ -39,10 +39,11 @@
 #### janelas
 
 ~~~~ PowerShell
-    python - m pip install PySimpleGUI
+    python -m pip install PySimpleGUI
 ~~~~
 
 <br>
+
 ### ✔ Status
 
 <h4>Finish</h4>
