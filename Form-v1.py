@@ -12,14 +12,13 @@ def FormPy():
         
         Firstname = str(input("Firstname - ")).capitalize()
         Lastname = str(input("Lastname - ")).capitalize()
-        
-        Age = int(input("Age - "))
-        while type(Age) != int:
-            print("-" * 50)
-            print("CodeError - Age invalid.")
-            print("-" * 50)
-            
-            Age = int(input("Age - "))
+
+        print("----".center(50))
+        sleep(0.6)
+
+        Country = str(input("Country - ")).lower()
+
+        State = str(input("State - ")).capitalize()
 
         print("----".center(50))
         sleep(0.6)
@@ -31,20 +30,18 @@ def FormPy():
         sleep(0.6)
 
         Email = str(input("Email - "))
-        while not "@" and ".com" in Email:
-            print("-" * 50)
-            print("CodeError - Email invalid.")
-            print("-" * 50)
-
-            Email = str(input("Email - "))
 
         Number = int(input("Number - "))
         while type(Number) != int:
             print("-" * 50)
             print("CodeError - Number invalid.")
             print("-" * 50)
-            
+
+            sleep(0.6)
+
             Number = int(input("Number - "))
+            if type(Number) == int:
+                break
 
         print("----".center(50))
         sleep(0.6)
@@ -66,14 +63,23 @@ def FormPy():
         print(f"CodeError - {error}")
         
         sleep(0.6)
+
+
+# Loop FormPy
+while True:
+    print("-" * 50)
+    next = str(input("Register - [S/n]")).lower()
+    
+    system("cls")
+    sleep(1)
+
+    if next == "s":
+        FormPy()
+    else:
         print("-" * 50)
 
-# Defs
-FormPy()
+        sleep(0.6)
+        print("(c) NT Developer".center(50))
 
-print("-" * 50)
-
-sleep(0.6)
-print("(c) NT Developer".center(50))
-
-print("-" * 50)
+        print("-" * 50)
+        break
