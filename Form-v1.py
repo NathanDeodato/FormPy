@@ -84,7 +84,6 @@ while True:
     else:
         print("-" * 50)
 
-        sleep(0.6)
         print("(c) NT Developer".center(50))
 
         print("-" * 50)
