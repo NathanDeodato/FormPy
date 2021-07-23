@@ -3,7 +3,7 @@
 ## 🗂 Project description
 
 <p>
-	
+    A program developed in Python. It is a registration form, which the user needs to enter information to complete their registration.
 </p>
 
 <br>
