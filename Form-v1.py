@@ -53,6 +53,13 @@ def FormPy():
             sleep(0.6)
             print("")
             print(f"NameCode - #{code}_#{Firstname}{Lastname}")
+
+            print("-" * 50)
+
+            sleep(0.6)
+            print("(c) NT Developer".center(50))
+
+            print("-" * 50)
         Register()
 
     except Exception as error:
